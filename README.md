@@ -11,7 +11,7 @@
 
   
 ## Overview <a name="overview" />
-This project aims to predict the total e-commerce orders of a chain of supermarkets. It allows estimating orders with weekly detail for the next 25 weeks starting from information about the past trend of orders and number of customers.
+This project aims to predict the total e-commerce orders of a chain of supermarkets. It allows to estimate orders with weekly detail for the next 25 weeks starting from information about the past trend of orders and number of customers.
 
 In this project I
 1. Ploted each value to identify particular trends or periodicity
@@ -24,7 +24,7 @@ In this project I
 It was an exercise proposed in an interview process as a take-home assignment. It was really funny and interesting so I wanted to share it. However, I hid any information about the company.
 
 ## Technical Aspects <a name="technical-aspects" />
-In this project, the crucial aspect was the preparation and selection of the features. In particular, it was difficult to find periodicities and to understand what time shifts of features time-series to use. The way I proposed to solve the problem was to build a function *delta_corr*. It computes the Pearson correlation between the metric to predict and each negative time shift of the features. After that, I picked only the negative time shifts with the highest correlation. It allows finding periodicities in features and metric too.
+In this project, the crucial aspect was the preparation and selection of the features. In particular, it was difficult to find periodicities and to understand what time shifts of features time-series to use. The way I proposed to solve the problem was to build a function *delta_corr*. It computes the Pearson correlation between the metric to predict and each negative time shift of the features. After that, I picked only the negative time shifts with the highest correlation. It allows to find periodicities in features and metric too.
 
 Moreover, I exploited *caret* library to build a wide range of models. Then I used criteria based on business needs for model selection.
 
