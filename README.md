@@ -14,11 +14,11 @@
 This project aims to predict the total e-commerce orders of a chain of supermarkets. It allows estimating orders with weekly detail for the next 25 weeks starting from information about the past trend of orders and number of customers.
 
 In this project I
-1. Plot each value to identify particular trends or periodicity
-2. Analyze correlation between each negative translations of provided segments and Total Orders to find some relationships
-3. Select both the best set of features and the best model by evaluating some performances indexes
-4. Consider some techniques bases on signal analysis and evaluate their performances
-5. Make the requested prediction by using the best model
+1. Ploted each value to identify particular trends or periodicity
+2. Analyzed correlation between each negative time shift of provided data and Total Orders to find some relationships
+3. Selected both the best set of features and the best model by evaluating some performances indexes
+4. Considered some techniques bases on signal analysis and evaluate their performances
+5. Made the requested prediction by using the best model
 
 ## Motivation <a name="motivation" />
 It was an exercise proposed in an interview process as a take-home assignment. It was really funny and interesting so I wanted to share it. However, I hid any information about the company.
